@@ -1,0 +1,21 @@
+h3{
+    font-size: 40px !important;
+    width: 80%;
+    font-family: sans-serif;
+}
+.btn-warning{
+    font-size: 20px !important;
+}
+.btn-warning:hover{background-color:burlywood;}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 35px darkkhaki;}
+    to{box-shadow: 1px 1px 35px darkslateblue;}
+}
+body{
+    background: burlywood;
+}
